@@ -1,0 +1,57 @@
+.receipt_img {
+    margin: 0 auto;
+    display: block;
+}
+
+.cat_title {
+    text-align: center;
+}
+
+.cart_col {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+    width: 19%;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.item-name {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.m-top {
+    margin-top: 40px;
+}
+
+.active-url {
+    color: #B7D02E;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.image img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* Bootstrap override */
+
+.page-header {
+    margin: 0px 0 20px;
+}

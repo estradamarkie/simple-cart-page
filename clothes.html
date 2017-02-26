@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>POS Product Categories</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <!--<div class="row m-top" id="bread_nav">
+            <div class="col-sm-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Categories</a></li>
+                    <li class="active">Clothes</li>
+                </ol>
+            </div>
+        </div>-->
+        <div class="row m-top" id="item_cat">
+            <div class="col-md-4 col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="./assets/imgs/products/logo.png" alt="" class="receipt_img img-responsive">
+
+                        <div class="row">
+                            <div class="cart_list" id="cart_data"></div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <h4 style="text-align: right;">
+                            Subtotal: <span class="total"></span>
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button class="btn btn-success btn-lg pull-right" onclick="finishShopping()">Finish Shopping</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-7">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <a href="drinks.html" class="cat_title">
+                                    <h4>Drinks</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <a href="#" class="cat_title">
+                                    <h4>Souveniers</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <a href="snacks.html" class="cat_title">
+                                    <h4>Snacks</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <a href="clothes.html" class="cat_title" id="">
+                                    <h4>Clothes</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-header">
+                    <h3>Please select an item</h3>
+                </div>
+
+                <div class="row">
+                    <div id="clothes_list"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="xml_gen">
+            <div id="xml_data"></div>
+            <!--<button class="btn btn-primary btn-lg" onclick="goback()" id="back-btn">Go back</button>-->
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./assets/js/items.js"></script>
+    <script src="./assets/js/add.js"></script>
+</body>
+
+</html>
